@@ -9,22 +9,22 @@ client.on('message', message => {
      
   if (message.content.startsWith(adminprefix + 'p')) {
     client.user.setGame(argresult);
-      message.channel.send(`BY !RG , ZEUS#9699   ${argresult}**`)
+      message.channel.send(`BY **ZEUS ᵒᶰ#9999**   ${argresult}**`)
   } else
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'w')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`BY !RG , ZEUS#9699   ${argresult}**`)
+      message.channel.send(`BY **ZEUS ᵒᶰ#9999**     ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'l')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`BY !RG , ZEUS#9699   ${argresult}**`)
+      message.channel.send(`BY **ZEUS ᵒᶰ#9999**   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'o')) {
     client.user.setGame(argresult, "https://www.twitch.tv/One");
-      message.channel.send(`BY !RG , ZEUS#9699`)
+      message.channel.send(`BY **ZEUS ᵒᶰ#9999** `)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
